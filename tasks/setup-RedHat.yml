@@ -1,7 +1,7 @@
 ---
 - name: Add td-agent GPG key.
   rpm_key:
-    key: https://packages.treasuredata.com/GPG-KEY-td-agent
+    key: "{{ fluentd_repo_url }}/GPG-KEY-td-agent"
     state: present
 
 - name: Add td-agent repository.
