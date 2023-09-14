@@ -14,6 +14,7 @@
   template:
     src: td-agent.conf.j2
     dest: /etc/td-agent/td-agent.conf
+    backup: true
     owner: root
     group: root
     mode: 0644
