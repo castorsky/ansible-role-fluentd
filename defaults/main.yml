@@ -1,4 +1,6 @@
 ---
+fluentd_repo_url: "https://s3.amazonaws.com/packages.treasuredata.com"
+
 fluentd_version: 3
 fluentd_package_state: present
 
