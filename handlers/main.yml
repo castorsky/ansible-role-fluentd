@@ -1,4 +1,3 @@
 ---
 - name: restart fluentd
-  when: fluentd_service_state != 'stopped'
   service: name={{ fluentd_service_name }} state=restarted
